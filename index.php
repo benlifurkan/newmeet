@@ -13,13 +13,12 @@
 </head>
 <body>
 
-    <div class="logo">
-        <img src="public/newmeet-logo.png" alt="NewMeet Logo">
-    </div>
-
     <div class="container">
         <div class="header">
-            <h1>NEWMEET</h1>
+            <!-- <h1>NEWMEET</h1> -->
+            <div class="logo">
+                <img src="public/newmeet-logo.png" alt="NewMeet Logo">
+            </div>
             <p>Yeni Nesil Tanışma Uygulaması</p>
         </div>
         <div class="main">
@@ -39,15 +38,17 @@
 
     </div>
 
-    <div class="footer">
-        <p>
-            ©
-            <?php
-                echo date("Y");
-            ?>
-            NewMeet. Tüm hakları saklıdır.
-        </p>
-    </div>
+    <footer>
+        <div class="footer">
+            <p>
+                ©
+                <?php
+                    echo date("Y");
+                ?>
+                NewMeet. Tüm hakları saklıdır.
+            </p>
+        </div>
+    </footer>
 
 
 
