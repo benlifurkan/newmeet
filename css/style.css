@@ -269,9 +269,29 @@ button::before {
     white-space: nowrap;
 }
 
+.footer {
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+}
+
 @media screen and (max-width: 600px) {
+
+    body{
+        background: linear-gradient(to top, rgba(2, 0, 36, 0.014) 0%, #3fbbfe 35%, #a541ff 63%);
+    }
+
     .main-inner {
-        padding: 100px;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .header h1 {
@@ -293,5 +313,10 @@ button::before {
         width: 200px;
         height: 40px;
     }
+
+    .footer {
+        font-size: 12px;
+    }
+
     
 }
