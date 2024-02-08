@@ -1,17 +1,3 @@
-@font-face {
-    font-family: "Lemon Milk";
-    src: url(../public/fonts/lemon_milk/LEMONMILK-Bold.otf) format("opentype");
-    src: url(../public/fonts/lemon_milk/LEMONMILK-Regular.otf) format("opentype");
-    src: url(../public/fonts/lemon_milk/LEMONMILK-Light.otf) format("opentype");
-    src: url(../public/fonts/lemon_milk/LEMONMILK-Medium.otf) format("opentype");
-    src: url(../public/fonts/lemon_milk/LEMONMILK-MediumItalic.otf) format("opentype");
-    src: url(../public/fonts/lemon_milk/LEMONMILK-BoldItalic.otf) format("opentype");
-    src: url(../public/fonts/lemon_milk/LEMONMILK-LightItalic.otf) format("opentype");
-    src: url(../public/fonts/lemon_milk/LEMONMILK-RegularItalic.otf) format("opentype");
-  }
-
-  @import url('https://fonts.googleapis.com/css2?family=Lemon+Milk&display=swap');
-
 body {
     margin: 0;
     padding: 0;
@@ -161,7 +147,7 @@ footer {
     }
 
     .main-inner {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
 
