@@ -19,7 +19,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(90deg, #3fbbfe 50%, #a541ff 50%);
+    background: linear-gradient(90deg, #3fbbfe 25%, #a541ff 65%);
 }
 
 .logo {
@@ -286,7 +286,7 @@ button::before {
 @media screen and (max-width: 600px) {
 
     body{
-        background: linear-gradient(to top, #3fbbfe 50%, #a541ff 50%);
+        background: linear-gradient(to top, #3fbbfe 25%, #a541ff 65%);
     }
 
     .main-inner {
