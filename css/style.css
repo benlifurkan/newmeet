@@ -24,12 +24,11 @@ body {
     height: 60px;
 }
 
-.main-inner img{
+.main-inner img {
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 10px;
-    z-index: 1000;
     margin-bottom: 10px;
 }
 
@@ -53,9 +52,9 @@ body {
     padding: 30px;
     border-radius: 10px;
     /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
-    -webkit-box-shadow: 10px 5px 26px -3px rgba(0,0,0,0.83);
-    -moz-box-shadow: 10px 5px 26px -3px rgba(0,0,0,0.83);
-    box-shadow: 10px 5px 26px -3px rgba(0,0,0,0.83);
+    -webkit-box-shadow: 10px 5px 26px -3px rgba(0, 0, 0, 0.83);
+    -moz-box-shadow: 10px 5px 26px -3px rgba(0, 0, 0, 0.83);
+    box-shadow: 10px 5px 26px -3px rgba(0, 0, 0, 0.83);
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -95,11 +94,15 @@ body {
 
 .heart {
     position: absolute;
-    width: 20px; /* Adjust the size of the heart */
-    height: 20px; /* Adjust the size of the heart */
-    background-color: #ff5e78; /* Adjust the color of the heart */
+    width: 20px;
+    /* Adjust the size of the heart */
+    height: 20px;
+    /* Adjust the size of the heart */
+    background-color: #ff5e78;
+    /* Adjust the color of the heart */
     clip-path: polygon(50% 0%, 100% 35%, 90% 100%, 50% 70%, 10% 100%, 0% 35%);
-    animation: heartRain 2s linear infinite; /* Adjust animation duration as needed */
+    animation: heartRain 2s linear infinite;
+    /* Adjust animation duration as needed */
 }
 
 @keyframes heartRain {
@@ -107,6 +110,7 @@ body {
         transform: translateY(-100px) rotate(0deg);
         opacity: 0;
     }
+
     100% {
         transform: translateY(100vh) rotate(360deg);
         opacity: 1;
@@ -142,8 +146,8 @@ footer {
 
 @media screen and (max-width: 700px) {
 
-    body{
-        background: linear-gradient(to top, #3fbbfe 25%, #a541ff 65%);
+    body {
+        background: linear-gradient(to top, #3fbbfe 35%, #a541ff 65%);
     }
 
     .main-inner {
@@ -175,5 +179,5 @@ footer {
         font-size: 12px;
     }
 
-    
+
 }

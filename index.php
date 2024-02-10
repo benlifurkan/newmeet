@@ -15,7 +15,6 @@
 
     <div class="container">
         <div class="header">
-            <!-- <h1>NEWMEET</h1> -->
             <div class="logo">
                 <img src="public/newmeet-logo.png" alt="NewMeet Logo">
             </div>
@@ -25,9 +24,6 @@
             <div class="main-inner">
                 <h2>Yeni insanlarla tanışmak için hemen üye ol!</h2>
                 <img src="public/yuzuk.png" alt="Yüzük">
-                <!--<button>
-                    <span class="button-inner">Hemen İndir!</span>
-                </button> -->
                 <a href="public/newmeet-afis.png" download>
                     <button href="public/newmeet-afis.png" id="downloadButton">
                         Hemen İndir!
@@ -39,7 +35,6 @@
     </div>
 
     <footer>
-        <div class="footer">
             <p>
                 ©
                 <?php
@@ -47,7 +42,6 @@
                 ?>
                 NewMeet. Tüm hakları saklıdır.
             </p>
-        </div>
     </footer>
 
 
