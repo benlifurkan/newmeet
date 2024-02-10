@@ -147,7 +147,7 @@ footer {
 @media screen and (max-width: 700px) {
 
     body {
-        background: linear-gradient(to top, #3fbbfe 35%, #a541ff 65%);
+        background: linear-gradient(to bottom, #3fbbfe 35%, #a541ff 65%);
     }
 
     .main-inner {
